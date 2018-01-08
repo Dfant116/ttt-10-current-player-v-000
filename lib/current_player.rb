@@ -1,7 +1,7 @@
 
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def turn_count(board)
-  turns = 2
+  turns = 0
   board.each do |space|
     if space == "X" || space == "O"
       turns += 1
